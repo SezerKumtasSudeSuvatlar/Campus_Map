@@ -182,7 +182,7 @@
 
         // GeoJSON verisini yükle
         let yolLayer;
-        fetch('resources\YOL.geojson') // YOL.geojson dosyasının doğru yolu
+        fetch("resources\YOL.geojson") // YOL.geojson dosyasının doğru yolu
             .then(response => response.json())
             .then(data => {
                 const vectorSource = new ol.source.Vector({
